@@ -1,0 +1,27 @@
+{
+  "disciplineId": "04dfab24-a523-4eb7-865b-33e3fddb36a5",
+  "question": "Quanto é 1 + 1?",
+  "context": null,
+  "options": [
+    {
+      "option": "4",
+      "isCorrect": false
+    },
+    {
+      "option": "2",
+      "isCorrect": true
+    },
+    {
+      "option": "1",
+      "isCorrect": false
+    },
+    {
+      "option": "3",
+      "isCorrect": false
+    },
+    {
+      "option": "5",
+      "isCorrect": false
+    }
+  ]
+}
