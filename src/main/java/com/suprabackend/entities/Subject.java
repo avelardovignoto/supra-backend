@@ -1,6 +1,9 @@
 package com.suprabackend.entities;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 import java.util.UUID;
 
@@ -13,5 +16,17 @@ public class Subject {
     private UUID id;
     private String subject;
     private UUID disciplineId;
+
+    public UUID getDisciplineId() {
+        return disciplineId;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
 
 }

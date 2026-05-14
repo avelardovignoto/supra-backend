@@ -1,9 +1,5 @@
 package com.suprabackend.models;
 
-import com.suprabackend.entities.QuestionOption;
-
-import java.util.UUID;
-
 public class QuestionOptionModel {
 
     private String id;

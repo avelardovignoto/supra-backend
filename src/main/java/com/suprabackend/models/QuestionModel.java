@@ -1,9 +1,6 @@
 package com.suprabackend.models;
 
-import com.suprabackend.entities.Question;
-
 import java.util.List;
-import java.util.UUID;
 
 public class QuestionModel {
 

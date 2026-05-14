@@ -1,26 +1,17 @@
-package com.suprabackend.entities;
+package com.suprabackend.models;
 
-import jakarta.persistence.*;
+import com.suprabackend.entities.Question;
+import com.suprabackend.entities.Subject;
 
 import java.util.List;
-import java.util.UUID;
 
-@Entity
-@Table(name = "disciplines")
-public class Discipline {
-
-    @Id
-    @GeneratedValue
-    private UUID id;
+public class DisciplineModel {
+    private String id;
     private String discipline;
-
-    @Transient
     private List<Subject> subjects;
-
-    @Transient
     private List<Question> questions;
 
-    public UUID getId() {
+    public String getId() {
         return id;
     }
 
@@ -36,7 +27,7 @@ public class Discipline {
         return questions;
     }
 
-    public void setId(UUID id) {
+    public void setId(String id) {
         this.id = id;
     }
 
